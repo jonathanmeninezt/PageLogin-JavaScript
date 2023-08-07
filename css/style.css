@@ -8,6 +8,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  background-color: blanchedalmond;
+}
+
 .content {
   width: 80%;
   height: 300px;
