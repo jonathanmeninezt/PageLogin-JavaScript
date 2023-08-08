@@ -16,7 +16,7 @@ body {
 
 
 .content {
-  width: 30%;
+  width: 400px;
   height: 600px;
   background-color: rgba(255, 0, 0, 0.1);
   border-radius: 30px;
