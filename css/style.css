@@ -9,18 +9,22 @@ html, body {
 }
 
 body {
+  height: 100px;
   background-color: blanchedalmond;
 }
 
+
+
 .content {
-  width: 80%;
-  height: 300px;
-  background-color: red;
+  width: 30%;
+  height: 600px;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 250px auto;
+  margin: 70px auto;
 }
 
 .titleLogin {
