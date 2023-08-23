@@ -95,7 +95,7 @@ button.btn:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(15, 15, 15);
+  background-color: #b9013ec3;
   border: none;
   color: white;
   font-weight: 600;
@@ -114,7 +114,8 @@ button.btn:hover {
   height: 130px;
   position: absolute;
   content: "";
-  background-color: white;
+  background-color: rgb(114, 50, 130);
+  color: white;
   border-radius: 50%;
   left: -100%;
   top: 0;
