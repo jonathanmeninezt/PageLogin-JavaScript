@@ -98,7 +98,9 @@ button.btn:hover {
   background-color: #b9013ec3;
   border: none;
   color: white;
-  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
   gap: 8px;
   cursor: pointer;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
