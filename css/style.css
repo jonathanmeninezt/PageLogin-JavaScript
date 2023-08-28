@@ -69,6 +69,11 @@ i{
   margin-left: 180px;
   cursor: pointer;
   color: rgb(194, 190, 190);
+  transition: 0.9s;
+}
+
+i:hover {
+  color: black;
 }
 
 p{
