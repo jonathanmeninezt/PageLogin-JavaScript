@@ -50,6 +50,31 @@ body {
   text-align: center;
 }
 
+.titleLogin h1::before {
+
+  position: absolute;
+  content: "";
+  background-color: rgb(193, 193, 193);
+  color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.titleLogin h1:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.titleLogin h1:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
+}
+
+
 .boxInput {
   display: flex;
   flex-direction: column;
